@@ -1,0 +1,16 @@
+{
+  "name": "@goodhood/design-tokens",
+  "version": "0.0.1-beta",
+  "description": "from design-tokens to platform code via style-dictionary",
+  "main": "lib/index.js",
+  "style": "lib/_index.css",
+  "license": "MIT",
+  "scripts": {
+    "build": "style-dictionary build --config ./sd.config.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}
