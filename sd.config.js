@@ -1,6 +1,7 @@
 const fs = require('fs-extra');
 
 const webPath = 'lib/';
+const iOSPath = 'styles/';
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -26,5 +27,14 @@ module.exports = {
         format: 'javascript/es6',
       }],
     },
+    ios-swift: {
+      transformGroup: 'ios-swift-separate',
+      buildPath: iOSPath,
+      files: [{
+        destination: 'StyleDictionaryColor.swift',
+        format: 'ios-swift/enum.swift',
+        className: 'StyleDictionaryColor'
+      }]
+    }
   },
 };
