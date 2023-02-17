@@ -39,7 +39,7 @@ module.exports = {
         className: 'StyleDictionaryColor'
       }]
     },
-    "ios-colorsets": {
+    iosColorsets: {
       buildPath: iOSPath,
       transforms: ['attribute/cti', 'name/cti/pascal', 'attribute/color'],
       actions: ['iOSColorsets'],
