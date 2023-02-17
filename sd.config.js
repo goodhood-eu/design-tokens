@@ -10,6 +10,9 @@ fs.removeSync(webPath);
 
 module.exports = {
   source: ['tokens/**/*.json'],
+  action: {
+    iOSColorsets: require("./src/colorsets-action"),
+  },
   platforms: {
     css: {
       transformGroup: 'css',
@@ -27,7 +30,7 @@ module.exports = {
         format: 'javascript/es6',
       }],
     },
-    ios-swift: {
+    iosSwift: {
       transformGroup: 'ios-swift-separate',
       buildPath: iOSPath,
       files: [{
@@ -35,6 +38,11 @@ module.exports = {
         format: 'ios-swift/enum.swift',
         className: 'StyleDictionaryColor'
       }]
-    }
+    },
+    "ios-colorsets": {
+      buildPath: iOSPath,
+      transforms: ['attribute/cti', 'name/cti/pascal', 'attribute/color'],
+      actions: ['iOSColorsets'],
+    },
   },
 };
