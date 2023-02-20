@@ -3,7 +3,7 @@
     "default": {
       "background": {
         "1000": {
-          "value": "#f666ff",
+          "value": "#ffffff",
           "type": "color"
         }
       },
