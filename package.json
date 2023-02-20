@@ -6,11 +6,14 @@
   "style": "lib/_index.css",
   "license": "MIT",
   "scripts": {
-    "build": "style-dictionary build --config ./sd.config.js",
+    "build": "npm run build:transform && npm run build:styledict",
+    "build:transform": "token-transformer tokens/global.json tokens/global_transformed.json",
+    "build:styledict": "style-dictionary build --config ./sd.config.js",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "style-dictionary": "^3.7.2"
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.29"
   }
 }

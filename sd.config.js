@@ -8,7 +8,7 @@ console.log(`cleaning ${webPath}...`);
 fs.removeSync(webPath);
 
 module.exports = {
-  source: ['tokens/**/*.json'],
+  source: ['tokens/**/global_transformed.json'],
   platforms: {
     css: {
       transformGroup: 'css',
