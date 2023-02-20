@@ -3,7 +3,7 @@
     "default": {
       "background": {
         "1000": {
-          "value": "#ffffff",
+          "value": "#f666ff",
           "type": "color"
         }
       },
@@ -268,5 +268,11 @@
         }
       }
     }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "color"
+    ]
   }
 }
