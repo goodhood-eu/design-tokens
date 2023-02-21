@@ -36,7 +36,12 @@ module.exports = {
       files: [{
         destination: 'StyleDictionaryColor.swift',
         format: 'ios-swift/enum.swift',
-        className: 'StyleDictionaryColor'
+        className: 'StyleDictionaryColor',
+        filter: {
+          attributes: {
+            category: "color",
+          }
+        },
       }]
     },
     iosColorsets: {

@@ -38,16 +38,22 @@ module.exports = {
                 rgb
             }
         }) => {
+            /*
+             // disabled for now, as no dark color variants are supplied
             if (name.includes("ColorDark")) {
                 return;
             };
+             */
             const colorName = name.replace("ColorDefault", "");
             const colorsetPath = `${assetPath}/${colorName}.colorset`;
             createDir(colorsetPath);
 
+            /*
+             // disabled for now, as no dark color variants are supplied
             var darkVariant = colorTokens.find(obj => {
                 return obj.name === "ColorDark" + colorName;
             }).attributes;
+             */
 
             fs.writeFileSync(
                 `${colorsetPath}/Contents.json`,
@@ -69,7 +75,8 @@ module.exports = {
                         },
 
                         // dark
-                        {
+                        // disabled for now, as no dark color variants are supplied
+                        /*{
                             idiom: "universal",
                             appearances: [{
                                 appearance: "luminosity",
@@ -84,7 +91,7 @@ module.exports = {
                                     alpha: 1,
                                 },
                             },
-                        },
+                        },*/
 
                     ],
                     ...CONTENTS,
