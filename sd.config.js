@@ -9,7 +9,7 @@ console.log(`cleaning ${webPath}...`);
 fs.removeSync(webPath);
 
 module.exports = {
-  source: ['tokens/**/*.json'],
+  source: ['tokens/**/global_transformed.json'],
   action: {
     iOSColorsets: require("./src/colorsets-action"),
   },
