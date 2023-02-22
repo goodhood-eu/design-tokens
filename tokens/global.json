@@ -551,6 +551,54 @@
           }
         }
       }
+    },
+    "spacing": {
+      "xs": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "sm": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "md": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "40",
+        "type": "spacing"
+      },
+      "4xl": {
+        "value": "48",
+        "type": "spacing"
+      }
+    },
+    "border radius": {
+      "sm": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "md": {
+        "value": "12",
+        "type": "borderRadius"
+      },
+      "lg": {
+        "value": "16",
+        "type": "borderRadius"
+      }
     }
   },
   "$themes": [],
