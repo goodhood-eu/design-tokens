@@ -549,6 +549,12 @@
             "value": "#FFF9E5",
             "type": "color"
           }
+        },
+        "tertiary-5": {
+          "1000": {
+            "value": "#FFE625",
+            "type": "color"
+          }
         }
       }
     },
