@@ -1,7 +1,7 @@
 const fs = require('fs-extra');
 
 const webPath = 'lib/';
-const iOSPath = 'styles/';
+const iosPath = 'styles/';
 
 // before this runs we should clean the directories we are generating files in
 // to make sure they are ✨clean✨
@@ -11,7 +11,7 @@ fs.removeSync(webPath);
 module.exports = {
   source: ['tokens/**/global_transformed.json'],
   action: {
-    iOSColorsets: require("./src/colorsets-action"),
+    iosColorsets: require("./src/colorsets-action"),
   },
   platforms: {
     css: {
@@ -30,24 +30,10 @@ module.exports = {
         format: 'javascript/es6',
       }],
     },
-    iosSwift: {
-      transformGroup: 'ios-swift-separate',
-      buildPath: iOSPath,
-      files: [{
-        destination: 'StyleDictionaryColor.swift',
-        format: 'ios-swift/enum.swift',
-        className: 'StyleDictionaryColor',
-        filter: {
-          attributes: {
-            category: "color",
-          }
-        },
-      }]
-    },
     iosColorsets: {
-      buildPath: iOSPath,
+      buildPath: iosPath,
       transforms: ['attribute/cti', 'name/cti/snake', 'attribute/color'],
-      actions: ['iOSColorsets'],
+      actions: ['iosColorsets'],
     },
   },
 };
