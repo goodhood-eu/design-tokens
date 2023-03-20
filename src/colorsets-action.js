@@ -38,29 +38,14 @@ module.exports = {
                 rgb
             }
         }) => {
-            /*
-             // disabled for now, as no dark color variants are supplied
-            if (name.includes("ColorDark")) {
-                return;
-            };
-             */
             const colorName = name.replace("color_default_", "");
             const colorsetPath = `${assetPath}/${colorName}.colorset`;
             createDir(colorsetPath);
-
-            /*
-             // disabled for now, as no dark color variants are supplied
-            var darkVariant = colorTokens.find(obj => {
-                return obj.name === "ColorDark" + colorName;
-            }).attributes;
-             */
 
             fs.writeFileSync(
                 `${colorsetPath}/Contents.json`,
                 JSON.stringify({
                     colors: [
-
-                        // light
                         {
                             idiom: "universal",
                             color: {
@@ -73,26 +58,6 @@ module.exports = {
                                 },
                             },
                         },
-
-                        // dark
-                        // disabled for now, as no dark color variants are supplied
-                        /*{
-                            idiom: "universal",
-                            appearances: [{
-                                appearance: "luminosity",
-                                value: "dark",
-                            }, ],
-                            color: {
-                                "color-space": `srgb`,
-                                components: {
-                                    red: `${darkVariant.rgb.r}`,
-                                    green: `${darkVariant.rgb.g}`,
-                                    blue: `${darkVariant.rgb.b}`,
-                                    alpha: 1,
-                                },
-                            },
-                        },*/
-
                     ],
                     ...CONTENTS,
                 })
