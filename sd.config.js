@@ -46,7 +46,7 @@ module.exports = {
     },
     iosColorsets: {
       buildPath: iOSPath,
-      transforms: ['attribute/cti', 'name/cti/pascal', 'attribute/color'],
+      transforms: ['attribute/cti', 'name/cti/snake', 'attribute/color'],
       actions: ['iOSColorsets'],
     },
   },

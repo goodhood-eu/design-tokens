@@ -44,7 +44,7 @@ module.exports = {
                 return;
             };
              */
-            const colorName = name.replace("ColorDefault", "");
+            const colorName = name.replace("color_default_", "");
             const colorsetPath = `${assetPath}/${colorName}.colorset`;
             createDir(colorsetPath);
 
