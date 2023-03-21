@@ -1,21 +1,42 @@
 const fs = require('fs-extra');
+const { registerTransforms } = require('@tokens-studio/sd-transforms');
+const StyleDictionary = require('style-dictionary');
+
+registerTransforms(StyleDictionary);
 
 const webPath = 'lib/';
 const iosPath = 'styles/';
 
-// before this runs we should clean the directories we are generating files in
-// to make sure they are ✨clean✨
-console.log(`cleaning ${webPath}...`);
-fs.removeSync(webPath);
+// Following my question: https://github.com/tokens-studio/sd-transforms/issues/31#issuecomment-1471665174
+// this was the solution for now to get cross-reference working.
+// This code removes upper keys of the objects and brings the values 1 level up
+// TODO: once we use multiple files / paid version we might get rid of this
+StyleDictionary.registerParser({
+  pattern: /\.json$/,
+  parse: ({ filePath, contents }) => {
+    const parsed = JSON.parse(contents);
+    const newObj = {};
+
+    // Loop over all tokensets
+    Object.values(parsed).forEach((val) => {
+      // Grab all entries and put them at the top of new object
+      Object.entries(val).forEach(([key, innerVal]) => {
+        newObj[key] = innerVal;
+      })
+    })
+
+    return newObj;
+  }
+});
 
 module.exports = {
-  source: ['tokens/**/global_transformed.json'],
+  source: ['tokens/**/global.json'],
   action: {
     iosColorsets: require("./src/colorsets-action"),
   },
   platforms: {
     css: {
-      transformGroup: 'css',
+      transformGroup: 'tokens-studio',
       buildPath: webPath,
       files: [{
         destination: '_index.css',
@@ -23,7 +44,7 @@ module.exports = {
       }],
     },
     js: {
-      transformGroup: 'js',
+      transformGroup: 'tokens-studio',
       buildPath: webPath,
       files: [{
         destination: 'index.js',
