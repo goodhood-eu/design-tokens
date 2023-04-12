@@ -464,12 +464,12 @@
         "type": "borderRadius"
       }
     },
-    "White": {
-      "value": "#ffffff",
-      "type": "color",
-      "description": "White/1000"
-    },
     "Base": {
+      "White": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "White/1000"
+      },
       "Deep Purple": {
         "50": {
           "value": "#f4f3f6",
@@ -634,24 +634,94 @@
     },
     "Theme": {
       "primary": {
-        "value": "{Base.Knallgreen.800}",
-        "type": "color"
+        "primary": {
+          "value": "{Base.Knallgreen.800}",
+          "type": "color"
+        },
+        "onPrimary": {
+          "value": "{Base.Deep Purple.1000}",
+          "type": "color"
+        },
+        "primaryContainer": {
+          "value": "{Base.Knallgreen.100}",
+          "type": "color"
+        },
+        "onPrimaryContainer": {
+          "value": "{Base.Knallgreen.1300}",
+          "type": "color"
+        },
+        "inversePrimary": {
+          "value": "{Base.Knallgreen.1000}",
+          "type": "color"
+        }
       },
-      "onPrimary": {
-        "value": "{Base.Deep Purple.1000}",
-        "type": "color"
+      "secondary": {
+        "Secondary": {
+          "value": "{Base.Knallpink.800}",
+          "type": "color"
+        },
+        "onSecondary": {
+          "value": "{Base.Deep Purple.1000}",
+          "type": "color"
+        },
+        "secondaryContainer": {
+          "value": "{Base.Knallpink.100}",
+          "type": "color"
+        },
+        "onSecondaryContainer": {
+          "value": "{Base.Knallpink.1300}",
+          "type": "color"
+        }
       },
-      "primaryContainer": {
-        "value": "{Base.Knallgreen.100}",
-        "type": "color"
-      },
-      "onPrimaryContainer": {
-        "value": "{Base.Knallgreen.1300}",
-        "type": "color"
-      },
-      "inversePrimary": {
-        "value": "{Base.Knallgreen.1000}",
-        "type": "color"
+      "surface": {
+        "surface": {
+          "value": "{Base.White}",
+          "type": "color"
+        },
+        "surfaceContainer": {
+          "value": "{Base.Deep Purple.50}",
+          "type": "color"
+        },
+        "onSurface": {
+          "value": "{Base.Deep Purple.1000}",
+          "type": "color"
+        },
+        "onSurfaceVariant": {
+          "value": "{Base.Deep Purple.800}",
+          "type": "color"
+        }
+      }
+    },
+    "Context": {
+      "Menu Item": {
+        "Background": {
+          "Default": {
+            "value": "{Theme.surface.surface}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "{Theme.surface.surfaceContainer}",
+            "type": "color"
+          },
+          "Highlight": {
+            "value": "{Theme.primary.primaryContainer}",
+            "type": "color"
+          }
+        },
+        "Text": {
+          "Default": {
+            "value": "{Theme.surface.onSurfaceVariant}",
+            "type": "color"
+          },
+          "Hover": {
+            "value": "{Theme.surface.onSurfaceVariant}",
+            "type": "color"
+          },
+          "Highlight": {
+            "value": "{Theme.surface.onSurface}",
+            "type": "color"
+          }
+        }
       }
     }
   },
