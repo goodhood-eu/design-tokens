@@ -464,15 +464,13 @@
         "type": "borderRadius"
       }
     },
-    "Default": {
-      "Background": {
-        "1000": {
-          "value": "#ffffff",
-          "type": "color",
-          "description": "White/1000"
-        }
-      },
-      "Foreground": {
+    "White": {
+      "value": "#ffffff",
+      "type": "color",
+      "description": "White/1000"
+    },
+    "Base": {
+      "Deep Purple": {
         "50": {
           "value": "#f4f3f6",
           "type": "color",
@@ -509,7 +507,7 @@
           "description": "Deep Purple/1000"
         }
       },
-      "Primary": {
+      "Knallgreen": {
         "100": {
           "value": "#f2fbc4",
           "type": "color",
@@ -531,7 +529,7 @@
           "description": "Knallgreen/Dark Accent"
         }
       },
-      "Secondary": {
+      "Knallpink": {
         "100": {
           "value": "#fde6f7",
           "type": "color",
@@ -553,7 +551,7 @@
           "description": "Knallpink/Dark Accent"
         }
       },
-      "Tertiary 1": {
+      "Lavender": {
         "100": {
           "value": "#e8e3ff",
           "type": "color",
@@ -575,7 +573,7 @@
           "description": "Lavender/Dark Accent"
         }
       },
-      "Tertiary 2": {
+      "Teal": {
         "100": {
           "value": "#e0f5f9",
           "type": "color",
@@ -597,7 +595,7 @@
           "description": "Teal/Dark Accent"
         }
       },
-      "Tertiary 3": {
+      "Orange": {
         "100": {
           "value": "#fbecdf",
           "type": "color",
@@ -619,19 +617,41 @@
           "description": "Orange/Dark Accent"
         }
       },
-      "Tertiary 4": {
+      "Vanilla": {
         "1000": {
           "value": "#fff9e5",
           "type": "color",
           "description": "Vanilla/Base"
         }
       },
-      "Tertiary 5": {
+      "Yellow": {
         "1000": {
           "value": "#ffe625",
           "type": "color",
           "description": "Yellow"
         }
+      }
+    },
+    "Theme": {
+      "primary": {
+        "value": "{Base.Knallgreen.800}",
+        "type": "color"
+      },
+      "onPrimary": {
+        "value": "{Base.Deep Purple.1000}",
+        "type": "color"
+      },
+      "primaryContainer": {
+        "value": "{Base.Knallgreen.100}",
+        "type": "color"
+      },
+      "onPrimaryContainer": {
+        "value": "{Base.Knallgreen.1300}",
+        "type": "color"
+      },
+      "inversePrimary": {
+        "value": "{Base.Knallgreen.1000}",
+        "type": "color"
       }
     }
   },
