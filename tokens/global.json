@@ -81,16 +81,20 @@
       }
     },
     "lineHeights": {
-      "xl": {
+      "2xl": {
         "value": "40",
         "type": "lineHeights"
       },
-      "lg": {
+      "xl": {
         "value": "32",
         "type": "lineHeights"
       },
-      "md": {
+      "lg": {
         "value": "24",
+        "type": "lineHeights"
+      },
+      "md": {
+        "value": "20",
         "type": "lineHeights"
       },
       "sm": {
@@ -183,7 +187,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.500}",
-          "lineHeight": "{lineHeights.xl}",
+          "lineHeight": "{lineHeights.2xl}",
           "fontSize": "{fontSize.7}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -197,7 +201,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.lg}",
+          "lineHeight": "{lineHeights.xl}",
           "fontSize": "{fontSize.6}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -211,7 +215,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.5}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -225,7 +229,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.700}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.4}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -239,7 +243,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -253,7 +257,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.700}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.md}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -297,7 +301,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.500}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -311,7 +315,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.400}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -325,7 +329,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -339,7 +343,7 @@
         "value": {
           "fontFamily": "{fontFamilies.inter}",
           "fontWeight": "{fontWeights.400italic}",
-          "lineHeight": "{lineHeights.md}",
+          "lineHeight": "{lineHeights.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
