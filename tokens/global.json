@@ -1,6 +1,6 @@
 {
   "global": {
-    "Shadow": {
+    "shadow": {
       "High": {
         "Medium": {
           "value": {
@@ -74,13 +74,13 @@
         }
       }
     },
-    "fontFamilies": {
+    "fontFamily": {
       "inter": {
         "value": "Inter",
         "type": "fontFamilies"
       }
     },
-    "lineHeights": {
+    "lineHeight": {
       "2xl": {
         "value": "40",
         "type": "lineHeights"
@@ -102,7 +102,7 @@
         "type": "lineHeights"
       }
     },
-    "fontWeights": {
+    "fontWeight": {
       "400": {
         "value": "Regular",
         "type": "fontWeights"
@@ -182,12 +182,12 @@
         "type": "paragraphSpacing"
       }
     },
-    "Headings": {
+    "headings": {
       "H1": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.500}",
-          "lineHeight": "{lineHeights.2xl}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.500}",
+          "lineHeight": "{lineHeight.2xl}",
           "fontSize": "{fontSize.7}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -199,9 +199,9 @@
       },
       "H2": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.xl}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.xl}",
           "fontSize": "{fontSize.6}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -213,9 +213,9 @@
       },
       "H3": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.5}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -227,9 +227,9 @@
       },
       "H4": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.700}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.700}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.4}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -241,9 +241,9 @@
       },
       "H5": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -255,9 +255,9 @@
       },
       "H6": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.700}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.700}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.md}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -269,9 +269,9 @@
       },
       "H7": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.800}",
-          "lineHeight": "{lineHeights.sm}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.800}",
+          "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.md}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -283,9 +283,9 @@
       },
       "H8": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.800}",
-          "lineHeight": "{lineHeights.sm}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.800}",
+          "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.0}",
           "letterSpacing": "{letterSpacing.lg}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -296,12 +296,12 @@
         "type": "typography"
       }
     },
-    "Body": {
+    "body": {
       "Large": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.500}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.500}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -313,9 +313,9 @@
       },
       "Regular": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.400}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.400}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -327,9 +327,9 @@
       },
       "Semibold": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.600}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.600}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -341,9 +341,9 @@
       },
       "Italic": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.400italic}",
-          "lineHeight": "{lineHeights.lg}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.400italic}",
+          "lineHeight": "{lineHeight.lg}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -354,12 +354,12 @@
         "type": "typography"
       }
     },
-    "Detail": {
+    "detail": {
       "Medium": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.500}",
-          "lineHeight": "{lineHeights.sm}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.500}",
+          "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -371,9 +371,9 @@
       },
       "Bold": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.700}",
-          "lineHeight": "{lineHeights.sm}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.700}",
+          "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -385,9 +385,9 @@
       },
       "Upper Case": {
         "value": {
-          "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.800}",
-          "lineHeight": "{lineHeights.sm}",
+          "fontFamily": "{fontFamily.inter}",
+          "fontWeight": "{fontWeight.800}",
+          "lineHeight": "{lineHeight.sm}",
           "fontSize": "{fontSize.0}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -454,7 +454,7 @@
         "type": "spacing"
       }
     },
-    "border radius": {
+    "borderRadius": {
       "sm": {
         "value": "8",
         "type": "borderRadius"
@@ -468,7 +468,7 @@
         "type": "borderRadius"
       }
     },
-    "Base": {
+    "base": {
       "White": {
         "value": "#ffffff",
         "type": "color",
@@ -636,93 +636,93 @@
         }
       }
     },
-    "Theme": {
+    "theme": {
       "primary": {
         "primary": {
-          "value": "{Base.Knallgreen.800}",
+          "value": "{base.Knallgreen.800}",
           "type": "color"
         },
         "onPrimary": {
-          "value": "{Base.Deep Purple.1000}",
+          "value": "{base.Deep Purple.1000}",
           "type": "color"
         },
         "primaryContainer": {
-          "value": "{Base.Knallgreen.100}",
+          "value": "{base.Knallgreen.100}",
           "type": "color"
         },
         "onPrimaryContainer": {
-          "value": "{Base.Knallgreen.1300}",
+          "value": "{base.Knallgreen.1300}",
           "type": "color"
         },
         "inversePrimary": {
-          "value": "{Base.Knallgreen.1000}",
+          "value": "{base.Knallgreen.1000}",
           "type": "color"
         }
       },
       "secondary": {
         "Secondary": {
-          "value": "{Base.Knallpink.800}",
+          "value": "{base.Knallpink.800}",
           "type": "color"
         },
         "onSecondary": {
-          "value": "{Base.Deep Purple.1000}",
+          "value": "{base.Deep Purple.1000}",
           "type": "color"
         },
         "secondaryContainer": {
-          "value": "{Base.Knallpink.100}",
+          "value": "{base.Knallpink.100}",
           "type": "color"
         },
         "onSecondaryContainer": {
-          "value": "{Base.Knallpink.1300}",
+          "value": "{base.Knallpink.1300}",
           "type": "color"
         }
       },
       "surface": {
         "surface": {
-          "value": "{Base.White}",
+          "value": "{base.White}",
           "type": "color"
         },
         "surfaceContainer": {
-          "value": "{Base.Deep Purple.50}",
+          "value": "{base.Deep Purple.50}",
           "type": "color"
         },
         "onSurface": {
-          "value": "{Base.Deep Purple.1000}",
+          "value": "{base.Deep Purple.1000}",
           "type": "color"
         },
         "onSurfaceVariant": {
-          "value": "{Base.Deep Purple.800}",
+          "value": "{base.Deep Purple.800}",
           "type": "color"
         }
       }
     },
-    "Context": {
+    "context": {
       "Menu Item": {
         "Background": {
           "Default": {
-            "value": "{Theme.surface.surface}",
+            "value": "{theme.surface.surface}",
             "type": "color"
           },
           "Hover": {
-            "value": "{Theme.surface.surfaceContainer}",
+            "value": "{theme.surface.surfaceContainer}",
             "type": "color"
           },
           "Highlight": {
-            "value": "{Theme.primary.primaryContainer}",
+            "value": "{theme.primary.primaryContainer}",
             "type": "color"
           }
         },
         "Text": {
           "Default": {
-            "value": "{Theme.surface.onSurfaceVariant}",
+            "value": "{theme.surface.onSurfaceVariant}",
             "type": "color"
           },
           "Hover": {
-            "value": "{Theme.surface.onSurfaceVariant}",
+            "value": "{theme.surface.onSurfaceVariant}",
             "type": "color"
           },
           "Highlight": {
-            "value": "{Theme.surface.onSurface}",
+            "value": "{theme.surface.onSurface}",
             "type": "color"
           }
         }
