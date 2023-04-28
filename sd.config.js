@@ -56,5 +56,28 @@ module.exports = {
       transforms: ['attribute/cti', 'name/cti/snake', 'attribute/color'],
       actions: ['iosColorsets'],
     },
+    android: {
+          transformGroup: 'android',
+          buildPath: '../app/src/main/res/values/',
+          files: [{
+            destination: 'design_token_colors.xml',
+            format: 'android/colors'
+          }]
+        },
+    compose: {
+      transformGroup: 'compose',
+      buildPath: '../app/src/main/java/de/nebenan/app/ui/core/commoncompose/theme/',
+      files: [{
+        destination: 'DesignTokenColor.kt',
+        format: 'compose/object',
+        className: 'DesignTokenColor',
+        packageName: 'de.nebenan.app.ui.core.commoncompose.theme',
+        filter: {
+          attributes: {
+            category: 'color'
+          }
+        }
+      }]
+    },
   },
 };
