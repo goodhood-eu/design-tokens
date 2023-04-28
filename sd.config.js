@@ -32,7 +32,7 @@ StyleDictionary.registerParser({
 module.exports = {
   source: ['tokens/**/global.json'],
   action: {
-    iosColorsets: require("./src/colorsets-action"),
+    iosColorsets: require("./src/iOS/colorsets-action"),
   },
   platforms: {
     css: {
@@ -53,7 +53,7 @@ module.exports = {
     },
     iosColorsets: {
       buildPath: iosPath,
-      transforms: ['attribute/cti', 'name/cti/snake', 'attribute/color'],
+      transforms: ['attribute/cti', 'name/cti/pascal', 'attribute/color'],
       actions: ['iosColorsets'],
     },
   },
