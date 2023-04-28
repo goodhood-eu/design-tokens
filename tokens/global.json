@@ -468,262 +468,264 @@
         "type": "borderRadius"
       }
     },
-    "base": {
-      "White": {
-        "value": "#ffffff",
-        "type": "color",
-        "description": "White/1000"
-      },
-      "Deep Purple": {
-        "50": {
-          "value": "#f4f3f6",
+    "color": {
+      "base": {
+        "White": {
+          "value": "#ffffff",
           "type": "color",
-          "description": "Deep Purple/50"
+          "description": "White/1000"
         },
-        "100": {
-          "value": "#e9e8ed",
-          "type": "color",
-          "description": "Deep Purple/100"
+        "Deep Purple": {
+          "50": {
+            "value": "#f4f3f6",
+            "type": "color",
+            "description": "Deep Purple/50"
+          },
+          "100": {
+            "value": "#e9e8ed",
+            "type": "color",
+            "description": "Deep Purple/100"
+          },
+          "200": {
+            "value": "#d2d0db",
+            "type": "color",
+            "description": "Deep Purple/200"
+          },
+          "400": {
+            "value": "#a6a2b6",
+            "type": "color",
+            "description": "Deep Purple/400"
+          },
+          "600": {
+            "value": "#797392",
+            "type": "color",
+            "description": "Deep Purple/600"
+          },
+          "800": {
+            "value": "#4c4566",
+            "type": "color",
+            "description": "Deep Purple/800"
+          },
+          "1000": {
+            "value": "#201649",
+            "type": "color",
+            "description": "Deep Purple/1000"
+          }
         },
-        "200": {
-          "value": "#d2d0db",
-          "type": "color",
-          "description": "Deep Purple/200"
+        "Knallgreen": {
+          "100": {
+            "value": "#f2fbc4",
+            "type": "color",
+            "description": "Knallgreen/Extra Light Accent"
+          },
+          "800": {
+            "value": "#cae85d",
+            "type": "color",
+            "description": "Knallgreen/Light"
+          },
+          "1000": {
+            "value": "#b5d622",
+            "type": "color",
+            "description": "Knallgreen/Base"
+          },
+          "1300": {
+            "value": "#7e9611",
+            "type": "color",
+            "description": "Knallgreen/Dark Accent"
+          }
         },
-        "400": {
-          "value": "#a6a2b6",
-          "type": "color",
-          "description": "Deep Purple/400"
+        "Knallpink": {
+          "100": {
+            "value": "#fde6f7",
+            "type": "color",
+            "description": "Knallpink/Extra Light Accent"
+          },
+          "800": {
+            "value": "#ff9de2",
+            "type": "color",
+            "description": "Knallpink/Light"
+          },
+          "1000": {
+            "value": "#ec7bcb",
+            "type": "color",
+            "description": "Knallpink/Base"
+          },
+          "1300": {
+            "value": "#a54e8c",
+            "type": "color",
+            "description": "Knallpink/Dark Accent"
+          }
         },
-        "600": {
-          "value": "#797392",
-          "type": "color",
-          "description": "Deep Purple/600"
+        "Lavender": {
+          "100": {
+            "value": "#e8e3ff",
+            "type": "color",
+            "description": "Lavender/Extra Light Accent"
+          },
+          "800": {
+            "value": "#c1b7ea",
+            "type": "color",
+            "description": "Lavender/Light"
+          },
+          "1000": {
+            "value": "#7c5bff",
+            "type": "color",
+            "description": "Lavender/Base"
+          },
+          "1300": {
+            "value": "#5037b2",
+            "type": "color",
+            "description": "Lavender/Dark Accent"
+          }
         },
-        "800": {
-          "value": "#4c4566",
-          "type": "color",
-          "description": "Deep Purple/800"
+        "Teal": {
+          "100": {
+            "value": "#e0f5f9",
+            "type": "color",
+            "description": "Teal/Extra Light Accent"
+          },
+          "800": {
+            "value": "#98cbd6",
+            "type": "color",
+            "description": "Teal/Light"
+          },
+          "1000": {
+            "value": "#43adc3",
+            "type": "color",
+            "description": "Teal/Base"
+          },
+          "1300": {
+            "value": "#297888",
+            "type": "color",
+            "description": "Teal/Dark Accent"
+          }
         },
-        "1000": {
-          "value": "#201649",
-          "type": "color",
-          "description": "Deep Purple/1000"
+        "Orange": {
+          "100": {
+            "value": "#fbecdf",
+            "type": "color",
+            "description": "Orange/Extra Light Accent"
+          },
+          "800": {
+            "value": "#ebaa77",
+            "type": "color",
+            "description": "Orange/Light"
+          },
+          "1000": {
+            "value": "#dc8541",
+            "type": "color",
+            "description": "Orange/Base"
+          },
+          "1300": {
+            "value": "#9a5927",
+            "type": "color",
+            "description": "Orange/Dark Accent"
+          }
+        },
+        "Vanilla": {
+          "1000": {
+            "value": "#fff9e5",
+            "type": "color",
+            "description": "Vanilla/Base"
+          }
+        },
+        "Yellow": {
+          "1000": {
+            "value": "#ffe625",
+            "type": "color",
+            "description": "Yellow"
+          }
         }
       },
-      "Knallgreen": {
-        "100": {
-          "value": "#f2fbc4",
-          "type": "color",
-          "description": "Knallgreen/Extra Light Accent"
-        },
-        "800": {
-          "value": "#cae85d",
-          "type": "color",
-          "description": "Knallgreen/Light"
-        },
-        "1000": {
-          "value": "#b5d622",
-          "type": "color",
-          "description": "Knallgreen/Base"
-        },
-        "1300": {
-          "value": "#7e9611",
-          "type": "color",
-          "description": "Knallgreen/Dark Accent"
-        }
-      },
-      "Knallpink": {
-        "100": {
-          "value": "#fde6f7",
-          "type": "color",
-          "description": "Knallpink/Extra Light Accent"
-        },
-        "800": {
-          "value": "#ff9de2",
-          "type": "color",
-          "description": "Knallpink/Light"
-        },
-        "1000": {
-          "value": "#ec7bcb",
-          "type": "color",
-          "description": "Knallpink/Base"
-        },
-        "1300": {
-          "value": "#a54e8c",
-          "type": "color",
-          "description": "Knallpink/Dark Accent"
-        }
-      },
-      "Lavender": {
-        "100": {
-          "value": "#e8e3ff",
-          "type": "color",
-          "description": "Lavender/Extra Light Accent"
-        },
-        "800": {
-          "value": "#c1b7ea",
-          "type": "color",
-          "description": "Lavender/Light"
-        },
-        "1000": {
-          "value": "#7c5bff",
-          "type": "color",
-          "description": "Lavender/Base"
-        },
-        "1300": {
-          "value": "#5037b2",
-          "type": "color",
-          "description": "Lavender/Dark Accent"
-        }
-      },
-      "Teal": {
-        "100": {
-          "value": "#e0f5f9",
-          "type": "color",
-          "description": "Teal/Extra Light Accent"
-        },
-        "800": {
-          "value": "#98cbd6",
-          "type": "color",
-          "description": "Teal/Light"
-        },
-        "1000": {
-          "value": "#43adc3",
-          "type": "color",
-          "description": "Teal/Base"
-        },
-        "1300": {
-          "value": "#297888",
-          "type": "color",
-          "description": "Teal/Dark Accent"
-        }
-      },
-      "Orange": {
-        "100": {
-          "value": "#fbecdf",
-          "type": "color",
-          "description": "Orange/Extra Light Accent"
-        },
-        "800": {
-          "value": "#ebaa77",
-          "type": "color",
-          "description": "Orange/Light"
-        },
-        "1000": {
-          "value": "#dc8541",
-          "type": "color",
-          "description": "Orange/Base"
-        },
-        "1300": {
-          "value": "#9a5927",
-          "type": "color",
-          "description": "Orange/Dark Accent"
-        }
-      },
-      "Vanilla": {
-        "1000": {
-          "value": "#fff9e5",
-          "type": "color",
-          "description": "Vanilla/Base"
-        }
-      },
-      "Yellow": {
-        "1000": {
-          "value": "#ffe625",
-          "type": "color",
-          "description": "Yellow"
-        }
-      }
-    },
-    "theme": {
-      "primary": {
+      "theme": {
         "primary": {
-          "value": "{base.Knallgreen.800}",
-          "type": "color"
-        },
-        "onPrimary": {
-          "value": "{base.Deep Purple.1000}",
-          "type": "color"
-        },
-        "primaryContainer": {
-          "value": "{base.Knallgreen.100}",
-          "type": "color"
-        },
-        "onPrimaryContainer": {
-          "value": "{base.Knallgreen.1300}",
-          "type": "color"
-        },
-        "inversePrimary": {
-          "value": "{base.Knallgreen.1000}",
-          "type": "color"
-        }
-      },
-      "secondary": {
-        "Secondary": {
-          "value": "{base.Knallpink.800}",
-          "type": "color"
-        },
-        "onSecondary": {
-          "value": "{base.Deep Purple.1000}",
-          "type": "color"
-        },
-        "secondaryContainer": {
-          "value": "{base.Knallpink.100}",
-          "type": "color"
-        },
-        "onSecondaryContainer": {
-          "value": "{base.Knallpink.1300}",
-          "type": "color"
-        }
-      },
-      "surface": {
-        "surface": {
-          "value": "{base.White}",
-          "type": "color"
-        },
-        "surfaceContainer": {
-          "value": "{base.Deep Purple.50}",
-          "type": "color"
-        },
-        "onSurface": {
-          "value": "{base.Deep Purple.1000}",
-          "type": "color"
-        },
-        "onSurfaceVariant": {
-          "value": "{base.Deep Purple.800}",
-          "type": "color"
-        }
-      }
-    },
-    "context": {
-      "Menu Item": {
-        "Background": {
-          "Default": {
-            "value": "{theme.surface.surface}",
+          "primary": {
+            "value": "{color.base.Knallgreen.800}",
             "type": "color"
           },
-          "Hover": {
-            "value": "{theme.surface.surfaceContainer}",
+          "onPrimary": {
+            "value": "{color.base.Deep Purple.1000}",
             "type": "color"
           },
-          "Highlight": {
-            "value": "{theme.primary.primaryContainer}",
+          "primaryContainer": {
+            "value": "{color.base.Knallgreen.100}",
+            "type": "color"
+          },
+          "onPrimaryContainer": {
+            "value": "{color.base.Knallgreen.1300}",
+            "type": "color"
+          },
+          "inversePrimary": {
+            "value": "{color.base.Knallgreen.1000}",
             "type": "color"
           }
         },
-        "Text": {
-          "Default": {
-            "value": "{theme.surface.onSurfaceVariant}",
+        "secondary": {
+          "Secondary": {
+            "value": "{color.base.Knallpink.800}",
             "type": "color"
           },
-          "Hover": {
-            "value": "{theme.surface.onSurfaceVariant}",
+          "onSecondary": {
+            "value": "{color.base.Deep Purple.1000}",
             "type": "color"
           },
-          "Highlight": {
-            "value": "{theme.surface.onSurface}",
+          "secondaryContainer": {
+            "value": "{color.base.Knallpink.100}",
             "type": "color"
+          },
+          "onSecondaryContainer": {
+            "value": "{color.base.Knallpink.1300}",
+            "type": "color"
+          }
+        },
+        "surface": {
+          "surface": {
+            "value": "{color.base.White}",
+            "type": "color"
+          },
+          "surfaceContainer": {
+            "value": "{color.base.Deep Purple.50}",
+            "type": "color"
+          },
+          "onSurface": {
+            "value": "{color.base.Deep Purple.1000}",
+            "type": "color"
+          },
+          "onSurfaceVariant": {
+            "value": "{color.base.Deep Purple.800}",
+            "type": "color"
+          }
+        }
+      },
+      "context": {
+        "Menu Item": {
+          "Background": {
+            "Default": {
+              "value": "{color.theme.surface.surface}",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "{color.theme.surface.surfaceContainer}",
+              "type": "color"
+            },
+            "Highlight": {
+              "value": "{color.theme.primary.primaryContainer}",
+              "type": "color"
+            }
+          },
+          "Text": {
+            "Default": {
+              "value": "{color.theme.surface.onSurfaceVariant}",
+              "type": "color"
+            },
+            "Hover": {
+              "value": "{color.theme.surface.onSurfaceVariant}",
+              "type": "color"
+            },
+            "Highlight": {
+              "value": "{color.theme.surface.onSurface}",
+              "type": "color"
+            }
           }
         }
       }
