@@ -38,7 +38,7 @@ module.exports = {
                 rgb
             }
         }) => {
-            const colorName = name.replace("color_default_", "");
+            const colorName = name.replace("ColorBase", "Base").replace("ColorTheme", "Theme").replace("ColorContext", "Context");
             const colorsetPath = `${assetPath}/${colorName}.colorset`;
             createDir(colorsetPath);
 
