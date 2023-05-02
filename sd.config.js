@@ -6,6 +6,7 @@ registerTransforms(StyleDictionary);
 
 const webPath = 'lib/';
 const iosPath = 'styles/';
+const androidPath = 'android/'
 
 // Following my question: https://github.com/tokens-studio/sd-transforms/issues/31#issuecomment-1471665174
 // this was the solution for now to get cross-reference working.
@@ -58,7 +59,7 @@ module.exports = {
     },
     android: {
           transformGroup: 'android',
-          buildPath: '../app/src/main/res/values/',
+          buildPath: androidPath,
           files: [{
             destination: 'design_token_colors.xml',
             format: 'android/colors'
@@ -66,7 +67,7 @@ module.exports = {
         },
     compose: {
       transformGroup: 'compose',
-      buildPath: '../app/src/main/java/de/nebenan/app/ui/core/commoncompose/theme/',
+      buildPath: androidPath,
       files: [{
         destination: 'DesignTokenColor.kt',
         format: 'compose/object',
