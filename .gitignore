@@ -3,3 +3,5 @@ node_modules/
 styles/
 *.log
 .idea
+package/
+.DS_Store
