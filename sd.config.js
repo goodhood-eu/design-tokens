@@ -72,7 +72,7 @@ module.exports = {
         destination: 'DesignTokenColor.kt',
         format: 'compose/object',
         className: 'DesignTokenColor',
-        packageName: 'de.nebenan.app.ui.core.commoncompose.theme',
+        packageName: 'de.nebenan.app.design',
         filter: {
           attributes: {
             category: 'color'
