@@ -501,6 +501,11 @@
             "type": "color",
             "description": "Deep Purple/600"
           },
+          "700": {
+            "value": "#635C80",
+            "type": "color",
+            "description": "Deep Purple/600"
+          },
           "800": {
             "value": "#4c4566",
             "type": "color",
@@ -661,12 +666,16 @@
           }
         },
         "secondary": {
-          "Secondary": {
+          "secondary": {
             "value": "{color.base.Knallpink.800}",
             "type": "color"
           },
           "onSecondary": {
             "value": "{color.base.Deep Purple.1000}",
+            "type": "color"
+          },
+          "secondaryVariant": {
+            "value": "{color.base.Knallpink.1000}",
             "type": "color"
           },
           "secondaryContainer": {
@@ -675,6 +684,12 @@
           },
           "onSecondaryContainer": {
             "value": "{color.base.Knallpink.1300}",
+            "type": "color"
+          }
+        },
+        "tertiary": {
+          "tertiaryVariant": {
+            "value": "{color.base.Teal.1000}",
             "type": "color"
           }
         },
@@ -692,7 +707,11 @@
             "type": "color"
           },
           "onSurfaceVariant": {
-            "value": "{color.base.Deep Purple.800}",
+            "value": "{color.base.Deep Purple.700}",
+            "type": "color"
+          },
+          "onSurfaceVariantLight": {
+            "value": "{color.base.Deep Purple.400}",
             "type": "color"
           }
         }
@@ -713,6 +732,20 @@
               "type": "color"
             }
           },
+          "Highlight": {
+            "Badge": {
+              "value": "{color.theme.secondary.secondaryVariant}",
+              "type": "color"
+            },
+            "Pill-Background": {
+              "value": "{color.base.Teal.1000}",
+              "type": "color"
+            },
+            "PillText": {
+              "value": "{color.base.White}",
+              "type": "color"
+            }
+          },
           "Text": {
             "Default": {
               "value": "{color.theme.surface.onSurfaceVariant}",
@@ -725,6 +758,35 @@
             "Highlight": {
               "value": "{color.theme.surface.onSurface}",
               "type": "color"
+            },
+            "HighlightHover": {
+              "value": "{color.theme.primary.onPrimaryContainer}",
+              "type": "color"
+            }
+          },
+          "IconLeft": {
+            "Default": {
+              "value": {
+                "color": "{color.theme.surface.onSurfaceVariant}",
+                "width": "1.5"
+              },
+              "type": "border"
+            },
+            "Highlight": {
+              "value": {
+                "color": "{color.theme.primary.onPrimaryContainer}",
+                "width": "1.5"
+              },
+              "type": "border"
+            }
+          },
+          "IconRight": {
+            "Default": {
+              "value": {
+                "color": "{color.theme.surface.onSurfaceVariantLight}",
+                "width": "1.5"
+              },
+              "type": "border"
             }
           }
         }

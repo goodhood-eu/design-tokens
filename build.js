@@ -3,10 +3,10 @@ const { registerTransforms } = require('@tokens-studio/sd-transforms');
 const StyleDictionary = require('style-dictionary');
 const iosColorsets = require('./actions/colorsets.ios');
 
-const BASE_BUILD_PATH = 'lib/';
-const WEB_PATH = `${BASE_BUILD_PATH}web/`;
-const IOS_PATH = `${BASE_BUILD_PATH}ios/`;
-const ANDROID_PATH = `${BASE_BUILD_PATH}android/`;
+const BASE_BUILD_DIR = 'lib';
+const WEB_PATH = `${BASE_BUILD_DIR}/web/`;
+const IOS_PATH = `${BASE_BUILD_DIR}/ios/`;
+const ANDROID_PATH = `${BASE_BUILD_DIR}/android/`;
 
 registerTransforms(StyleDictionary);
 
@@ -72,7 +72,7 @@ module.exports = {
         destination: 'DesignTokenColor.kt',
         format: 'compose/object',
         className: 'DesignTokenColor',
-        packageName: 'de.nebenan.app.ui.core.commoncompose.theme',
+        packageName: 'de.nebenan.app.design',
         filter: {
           attributes: {
             category: 'color'
