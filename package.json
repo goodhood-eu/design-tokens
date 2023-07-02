@@ -1,6 +1,6 @@
 {
   "name": "@goodhood/design-tokens",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1",
   "description": "Nebenan Design Tokens",
   "main": "lib/web/index.js",
   "style": "lib/web/index.css",
