@@ -15,7 +15,7 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@tokens-studio/sd-transforms": "^0.5.1",
-    "style-dictionary": "^3.7.2"
+    "@tokens-studio/sd-transforms": "^0.10.0",
+    "style-dictionary": "^3.8.0"
   }
 }
