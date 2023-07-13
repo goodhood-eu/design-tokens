@@ -760,16 +760,20 @@
             "value": "{color.primitive.White}",
             "type": "color"
           },
-          "secondary2Variant": {
-            "value": "{color.primitive.Teal.800}",
-            "type": "color"
-          },
           "secondary2Container": {
             "value": "{color.primitive.Teal.100}",
             "type": "color"
           },
           "onSecondary2Container": {
             "value": "{color.primitive.Teal.1300}",
+            "type": "color"
+          },
+          "secondary2Variant": {
+            "value": "{color.primitive.Teal.800}",
+            "type": "color"
+          },
+          "onSecondary2Variant": {
+            "value": "{color.primitive.Deep Purple.1000}",
             "type": "color"
           }
         },
