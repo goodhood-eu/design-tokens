@@ -812,6 +812,10 @@
             "value": "{color.primitive.Deep Purple.200}",
             "type": "color"
           },
+          "outlineInverse": {
+            "value": "{color.primitive.White}",
+            "type": "color"
+          },
           "outlinePrimary": {
             "value": "{color.primitive.Knallgreen.1300}",
             "type": "color"
