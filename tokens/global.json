@@ -888,52 +888,6 @@
       },
       "context": {
         "Menu Item": {
-          "Background": {
-            "Default": {
-              "value": "{color.semantic.surface.surface}",
-              "type": "color"
-            },
-            "Hover": {
-              "value": "{color.semantic.surface.surfaceContainer}",
-              "type": "color"
-            },
-            "Highlight": {
-              "value": "{color.semantic.primary.primaryContainer}",
-              "type": "color"
-            }
-          },
-          "Highlight": {
-            "Badge": {
-              "value": "{color.semantic.highlight.highlightVariant}",
-              "type": "color"
-            },
-            "Pill-Background": {
-              "value": "{color.primitive.Teal.1000}",
-              "type": "color"
-            },
-            "PillText": {
-              "value": "{color.primitive.White}",
-              "type": "color"
-            }
-          },
-          "Text": {
-            "Default": {
-              "value": "{color.semantic.surface.onSurfaceVariant}",
-              "type": "color"
-            },
-            "Hover": {
-              "value": "{color.semantic.surface.onSurfaceVariant}",
-              "type": "color"
-            },
-            "Highlight": {
-              "value": "{color.semantic.surface.onSurface}",
-              "type": "color"
-            },
-            "HighlightHover": {
-              "value": "{color.semantic.primary.onPrimaryContainer}",
-              "type": "color"
-            }
-          },
           "IconLeft": {
             "Default": {
               "value": {
