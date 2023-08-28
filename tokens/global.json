@@ -885,35 +885,6 @@
             "type": "color"
           }
         }
-      },
-      "context": {
-        "Menu Item": {
-          "IconLeft": {
-            "Default": {
-              "value": {
-                "color": "{color.semantic.surface.onSurfaceVariant}",
-                "width": "1.5"
-              },
-              "type": "border"
-            },
-            "Highlight": {
-              "value": {
-                "color": "{color.semantic.primary.onPrimaryContainer}",
-                "width": "1.5"
-              },
-              "type": "border"
-            }
-          },
-          "IconRight": {
-            "Default": {
-              "value": {
-                "color": "{color.semantic.surface.onSurfaceVariantLight}",
-                "width": "1.5"
-              },
-              "type": "border"
-            }
-          }
-        }
       }
     }
   },
