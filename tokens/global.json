@@ -81,24 +81,24 @@
       }
     },
     "lineHeight": {
-      "2xl": {
-        "value": "40",
-        "type": "lineHeights"
-      },
-      "xl": {
-        "value": "32",
-        "type": "lineHeights"
-      },
-      "lg": {
-        "value": "24",
+      "sm": {
+        "value": "16",
         "type": "lineHeights"
       },
       "md": {
         "value": "20",
         "type": "lineHeights"
       },
-      "sm": {
-        "value": "16",
+      "lg": {
+        "value": "24",
+        "type": "lineHeights"
+      },
+      "xl": {
+        "value": "32",
+        "type": "lineHeights"
+      },
+      "xxl": {
+        "value": "40",
         "type": "lineHeights"
       }
     },
@@ -187,7 +187,7 @@
         "value": {
           "fontFamily": "{fontFamily.inter}",
           "fontWeight": "{fontWeight.500}",
-          "lineHeight": "{lineHeight.2xl}",
+          "lineHeight": "{lineHeight.xxl}",
           "fontSize": "{fontSize.7}",
           "letterSpacing": "{letterSpacing.sm}",
           "paragraphSpacing": "{paragraphSpacing.0}",
@@ -441,15 +441,15 @@
         "value": "24",
         "type": "spacing"
       },
-      "2xl": {
+      "xxl": {
         "value": "32",
         "type": "spacing"
       },
-      "3xl": {
+      "xxxl": {
         "value": "40",
         "type": "spacing"
       },
-      "4xl": {
+      "xxxxl": {
         "value": "48",
         "type": "spacing"
       }
@@ -471,8 +471,8 @@
         "value": "16",
         "type": "borderRadius"
       },
-      "∞": {
-        "value": "999",
+      "xl": {
+        "value": "100",
         "type": "borderRadius"
       }
     },
