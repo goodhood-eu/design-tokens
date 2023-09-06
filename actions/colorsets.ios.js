@@ -38,7 +38,8 @@ module.exports = {
                 rgb
             }
         }) => {
-            const colorName = name.replace("ColorBase", "Base").replace("ColorTheme", "Theme").replace("ColorContext", "Context");
+            var colorName = name.replace(/ColorSemantic[A-Z][a-z0-9]*/, "").replace("ColorPrimitive", "");
+            colorName = colorName.charAt(0).toLowerCase() + colorName.slice(1);
             const colorsetPath = `${assetPath}/${colorName}.colorset`;
             createDir(colorsetPath);
 
