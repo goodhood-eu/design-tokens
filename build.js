@@ -63,7 +63,7 @@ module.exports = {
     },
     android: {
       transformGroup: 'android',
-      transforms: ['attribute/cti', 'name/cti/snake', 'attribute/color', 'removePrefixForAndroid'],
+      transforms: ['attribute/cti', 'name/cti/snake', 'color/hex8android', 'removePrefixForAndroid'],
       buildPath: ANDROID_PATH,
       files: [{
         destination: 'color_tokens.xml',
@@ -72,7 +72,7 @@ module.exports = {
     },
     compose: {
       transformGroup: 'compose',
-      transforms: ['attribute/cti', 'name/cti/pascal', 'attribute/color', 'removePrefixForCompose'],
+      transforms: ['attribute/cti', 'name/cti/pascal', 'color/composeColor', 'removePrefixForCompose'],
       buildPath: ANDROID_PATH,
       files: [{
         destination: 'ColorToken.kt',
