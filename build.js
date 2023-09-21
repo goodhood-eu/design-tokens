@@ -66,7 +66,7 @@ module.exports = {
       transforms: ['attribute/cti', 'name/cti/snake', 'attribute/color', 'removePrefixForAndroid'],
       buildPath: ANDROID_PATH,
       files: [{
-        destination: 'token_colors.xml',
+        destination: 'color_tokens.xml',
         format: 'android/colors'
       }]
     },
