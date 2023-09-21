@@ -1,6 +1,7 @@
 const { registerTransforms } = require('@tokens-studio/sd-transforms');
 const StyleDictionary = require('style-dictionary');
 const iosColorsets = require('./actions/colorsets.ios');
+const { removePrefixForCompose, removePrefixForAndroid } = require('./transforms/android_transforms');
 
 const BASE_BUILD_DIR = 'lib';
 const WEB_PATH = `${BASE_BUILD_DIR}/web/`;
@@ -31,6 +32,10 @@ StyleDictionary.registerParser({
   }
 });
 
+
+StyleDictionary.registerTransform(removePrefixForAndroid)
+StyleDictionary.registerTransform(removePrefixForCompose)
+
 module.exports = {
   source: ['tokens/**/global.json'],
   action: { iosColorsets },
@@ -58,25 +63,27 @@ module.exports = {
     },
     android: {
       transformGroup: 'android',
+      transforms: ['attribute/cti', 'name/cti/snake', 'attribute/color', 'removePrefixForAndroid'],
       buildPath: ANDROID_PATH,
       files: [{
-        destination: 'design_token_colors.xml',
+        destination: 'token_colors.xml',
         format: 'android/colors'
       }]
     },
     compose: {
       transformGroup: 'compose',
+      transforms: ['attribute/cti', 'name/cti/pascal', 'attribute/color', 'removePrefixForCompose'],
       buildPath: ANDROID_PATH,
       files: [{
-        destination: 'DesignTokenColor.kt',
+        destination: 'ColorToken.kt',
         format: 'compose/object',
-        className: 'DesignTokenColor',
+        className: 'ColorToken',
         packageName: 'de.nebenan.app.design',
         filter: {
           attributes: {
             category: 'color'
           }
-        }
+        },
       }]
     },
   },
