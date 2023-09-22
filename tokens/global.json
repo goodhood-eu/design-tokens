@@ -801,11 +801,11 @@
         },
         "outline": {
           "outline": {
-            "value": "{color.primitive.Deep Purple.600}",
+            "value": "{color.primitive.Deep Purple.400}",
             "type": "color"
           },
           "outlineHover": {
-            "value": "{color.primitive.Deep Purple.400}",
+            "value": "{color.primitive.Deep Purple.600}",
             "type": "color"
           },
           "outlineVariant": {
