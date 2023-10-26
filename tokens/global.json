@@ -421,6 +421,10 @@
       }
     },
     "spacing": {
+      "xxs": {
+        "value": "2",
+        "type": "spacing"
+      },
       "xs": {
         "value": "4",
         "type": "spacing"
