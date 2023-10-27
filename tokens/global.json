@@ -546,7 +546,7 @@
             "description": "Knallgreen/Base"
           },
           "1300": {
-            "value": "#7e9611",
+            "value": "#738C00",
             "type": "color",
             "description": "Knallgreen/Dark Accent"
           }
@@ -568,7 +568,7 @@
             "description": "Knallpink/Base"
           },
           "1300": {
-            "value": "#a54e8c",
+            "value": "#CC339F",
             "type": "color",
             "description": "Knallpink/Dark Accent"
           }
@@ -590,7 +590,7 @@
             "description": "Lavender/Base"
           },
           "1300": {
-            "value": "#5037b2",
+            "value": "#4D17E5",
             "type": "color",
             "description": "Lavender/Dark Accent"
           }
@@ -612,7 +612,7 @@
             "description": "Teal/Base"
           },
           "1300": {
-            "value": "#297888",
+            "value": "#01819C",
             "type": "color",
             "description": "Teal/Dark Accent"
           }
@@ -634,7 +634,7 @@
             "description": "Orange/Base"
           },
           "1300": {
-            "value": "#9a5927",
+            "value": "#C25700",
             "type": "color",
             "description": "Orange/Dark Accent"
           }
@@ -688,10 +688,6 @@
           },
           "highlightVariant": {
             "value": "{color.primitive.Knallpink.1000}",
-            "type": "color"
-          },
-          "onHighlightVariant": {
-            "value": "{color.primitive.White}",
             "type": "color"
           },
           "highlightContainer": {
@@ -757,7 +753,7 @@
         },
         "secondary2": {
           "secondary2": {
-            "value": "{color.primitive.Teal.1000}",
+            "value": "{color.primitive.Teal.1300}",
             "type": "color"
           },
           "onSecondary2": {
@@ -867,7 +863,7 @@
             "type": "color"
           },
           "errorOutline": {
-            "value": "{color.primitive.Knallpink.1000}",
+            "value": "{color.primitive.Knallpink.1300}",
             "type": "color"
           }
         },
