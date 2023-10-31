@@ -1,7 +1,8 @@
-const {registerTransforms} = require('@tokens-studio/sd-transforms');
+const {registerTransforms, transformDimension} = require('@tokens-studio/sd-transforms');
 const StyleDictionary = require('style-dictionary');
 const iosColorsets = require('./actions/colorsets.ios');
 const {removePrefixForCompose, removePrefixForAndroid} = require('./transforms/android_transforms');
+const {addMissingUnits} = require('./transforms/web_transforms');
 
 const BASE_BUILD_DIR = 'lib';
 const WEB_PATH = `${BASE_BUILD_DIR}/web/`;
@@ -35,7 +36,7 @@ StyleDictionary.registerParser({
 
 StyleDictionary.registerTransform(removePrefixForAndroid)
 StyleDictionary.registerTransform(removePrefixForCompose)
-
+StyleDictionary.registerTransform(addMissingUnits)
 module.exports = {
     source: ['tokens/**/global.json'],
     action: {iosColorsets},
@@ -48,8 +49,22 @@ module.exports = {
                 format: 'css/variables',
             }],
         }, scss: {
-            transformGroup: 'tokens-studio',
-            buildPath: WEB_PATH,
+            transforms: [
+                'ts/descriptionToComment',
+                'custom/ts/size/px',
+                'ts/opacity',
+                'ts/size/lineheight',
+                'ts/typography/fontWeight',
+                'ts/resolveMath',
+                'ts/size/css/letterspacing',
+                'ts/typography/css/fontFamily',
+                'ts/typography/css/shorthand',
+                'ts/border/css/shorthand',
+                'ts/shadow/css/shorthand',
+                'ts/color/css/hexrgba',
+                'ts/color/modifiers',
+                'name/cti/kebab',
+            ],            buildPath: WEB_PATH,
             files: [{
                 destination: 'index.scss',
                 format: "scss/map-deep",
