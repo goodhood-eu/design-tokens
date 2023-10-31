@@ -1,6 +1,6 @@
 {
   "name": "@goodhood/design-tokens",
-  "version": "0.0.2",
+  "version": "0.0.0-development",
   "description": "Nebenan Design Tokens",
   "author": "Good Hood GmbH <tech@nebenan.de>",
   "main": "lib/web/index.js",
@@ -13,10 +13,12 @@
     "start": "npm run clean && npm run build",
     "clean": "style-dictionary clean --config ./build.js",
     "build": "style-dictionary build --config ./build.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "semantic-release": "semantic-release"
   },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.11.8",
+    "semantic-release": "^22.0.6",
     "style-dictionary": "^3.9.0"
   }
 }

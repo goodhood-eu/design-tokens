@@ -1,0 +1,7 @@
+{
+  "branches": [
+  "main",
+    { "name": "dev", "channel": "beta"}
+  ],
+  "repositoryUrl": "git@github.com:goodhood-eu/design-tokens.git"
+}
