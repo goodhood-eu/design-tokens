@@ -1,6 +1,6 @@
 {
   "name": "@goodhood/design-tokens",
-  "version": "1.0.0-dev.4",
+  "version": "1.0.0-dev.5",
   "description": "Nebenan Design Tokens",
   "author": "Good Hood GmbH <tech@nebenan.de>",
   "main": "lib/web/index.js",
