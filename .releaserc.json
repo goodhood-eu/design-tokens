@@ -4,8 +4,15 @@
   "repositoryUrl": "git@github.com:goodhood-eu/design-tokens.git",
 
   "plugins": [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "angular",
+        "releaseRules": [
+          { "scope": "style", "release": "patch" }
+        ]
+      }
+    ],    "@semantic-release/release-notes-generator",
     "@semantic-release/github",
     "@semantic-release/npm",
     [
