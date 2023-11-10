@@ -906,6 +906,10 @@
       "xxxxl": {
         "value": "48",
         "type": "spacing"
+      },
+      "test": {
+        "value": "123",
+        "type": "spacing"
       }
     },
     "borderRadius": {
