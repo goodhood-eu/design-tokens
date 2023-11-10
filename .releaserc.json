@@ -9,7 +9,7 @@
       {
         "preset": "angular",
         "releaseRules": [
-          { "scope": "style", "release": "patch" }
+          { "scope": "style", "release": "minor" }
         ]
       }
     ],    "@semantic-release/release-notes-generator",
