@@ -627,7 +627,7 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": "{lineHeight.lg}",
+          "value": "{lineHeight.md}",
           "type": "lineHeights"
         },
         "fontSize": {
@@ -665,7 +665,7 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": "{lineHeight.lg}",
+          "value": "{lineHeight.md}",
           "type": "lineHeights"
         },
         "fontSize": {
@@ -703,7 +703,7 @@
           "type": "fontWeights"
         },
         "lineHeight": {
-          "value": "{lineHeight.lg}",
+          "value": "{lineHeight.md}",
           "type": "lineHeights"
         },
         "fontSize": {
@@ -1112,10 +1112,6 @@
           },
           "onPrimary": {
             "value": "{color.primitive.Deep Purple.1000}",
-            "type": "color"
-          },
-          "onPrimaryVariant": {
-            "value": "{color.primitive.Deep Purple.700}",
             "type": "color"
           },
           "primaryVariant": {
