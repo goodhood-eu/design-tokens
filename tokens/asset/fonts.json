@@ -1,0 +1,30 @@
+{
+  "global": {
+    "asset": {
+      "font": {
+        "Byrd": {
+          "700": {
+            "normal": {
+              "value": "assets/fonts/Byrd/Byrd-Bold",
+              "formats": ["woff2"]
+            }
+          },
+          "900": {
+            "normal": {
+              "value": "assets/fonts/Byrd/Byrd-Black",
+              "formats": ["woff2"]
+            }
+          }
+        },
+        "Inter": {
+          "400": {
+            "normal": {
+              "value": "assets/fonts/Inter/Inter.var",
+              "formats": ["woff2"]
+            }
+          }
+        }
+      }
+    }
+  }
+}
