@@ -2,7 +2,7 @@ const {registerTransforms, transformDimension} = require('@tokens-studio/sd-tran
 const StyleDictionary = require('style-dictionary');
 const iosColorsets = require('./actions/colorsets.ios');
 const {removePrefixForCompose, removePrefixForAndroid} = require('./transforms/android_transforms');
-const {addMissingUnits} = require('./transforms/web_transforms');
+const {addMissingUnits, addNamedAttribute} = require('./transforms/web_transforms');
 
 const BASE_BUILD_DIR = 'lib';
 const WEB_PATH = `${BASE_BUILD_DIR}/web/`;
@@ -33,10 +33,11 @@ StyleDictionary.registerParser({
     }
 });
 
+StyleDictionary.registerTransform(removePrefixForAndroid);
+StyleDictionary.registerTransform(removePrefixForCompose);
+StyleDictionary.registerTransform(addMissingUnits);
+StyleDictionary.registerTransform(addNamedAttribute);
 
-StyleDictionary.registerTransform(removePrefixForAndroid)
-StyleDictionary.registerTransform(removePrefixForCompose)
-StyleDictionary.registerTransform(addMissingUnits)
 module.exports = {
     source: ['tokens/**/global.json', 'tokens/asset/fonts.json'],
     action: {iosColorsets},
@@ -130,20 +131,6 @@ module.exports = {
         },
     },
 };
-
-// Register an "attribute" transform to codify the font's details
-// as named attributes.
-StyleDictionary.registerTransform({
-    name: 'attribute/font',
-    type: 'attribute',
-    transformer: (prop) => ({
-        category: prop.path[0],
-        type: prop.path[1],
-        family: prop.path[2],
-        weight: prop.path[3],
-        style: prop.path[4],
-    }),
-});
 
 // Register a custom format to generate @font-face rules.
 StyleDictionary.registerFormat({
