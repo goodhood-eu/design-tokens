@@ -93,7 +93,7 @@ module.exports = {
                         },
                     },
                     options: {
-                        fontPathPrefix: '../',
+                        fontPathPrefix: './',
                     },
                 },
             ],
