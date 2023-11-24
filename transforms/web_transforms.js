@@ -1,4 +1,4 @@
-const {transformDimension} = require("@tokens-studio/sd-transforms");
+const { transformDimension } = require("@tokens-studio/sd-transforms");
 
 const addMissingUnits = {
     name: 'custom/ts/size/px',

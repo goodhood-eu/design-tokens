@@ -1,8 +1,8 @@
-const {registerTransforms, transformDimension} = require('@tokens-studio/sd-transforms');
+const { registerTransforms } = require('@tokens-studio/sd-transforms');
 const StyleDictionary = require('style-dictionary');
 const iosColorsets = require('./actions/colorsets.ios');
-const {removePrefixForCompose, removePrefixForAndroid} = require('./transforms/android_transforms');
-const {addMissingUnits, addNamedAttribute} = require('./transforms/web_transforms');
+const { removePrefixForCompose, removePrefixForAndroid } = require('./transforms/android_transforms');
+const { addMissingUnits, addNamedAttribute } = require('./transforms/web_transforms');
 
 const BASE_BUILD_DIR = 'lib';
 const WEB_PATH = `${BASE_BUILD_DIR}/web/`;
