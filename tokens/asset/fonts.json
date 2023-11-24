@@ -19,7 +19,7 @@
         "Inter": {
           "400": {
             "normal": {
-              "value": "assets/fonts/Inter/Inter.var",
+              "value": "assets/fonts/Inter/Inter-Var",
               "formats": ["woff2"]
             }
           }
