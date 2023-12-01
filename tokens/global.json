@@ -1335,7 +1335,7 @@
         },
         "inverse": {
           "inverseSurface": {
-            "value": "rgba(33,22,74,0.8)",
+            "value": "rgba(33,22,74,0.85)",
             "type": "color"
           },
           "inverseSurfaceVariant": {
