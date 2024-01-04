@@ -1170,6 +1170,10 @@
             "value": "{color.primitive.White}",
             "type": "color"
           },
+          "surfaceElement": {
+            "value": "{color.primitive.Deep Purple.200}",
+            "type": "color"
+          },
           "onSurface": {
             "value": "{color.primitive.Deep Purple.1000}",
             "type": "color"
