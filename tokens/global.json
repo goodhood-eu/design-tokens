@@ -846,6 +846,44 @@
           "value": "{textDecoration.none}",
           "type": "textDecoration"
         }
+      },
+      "Regular": {
+        "fontFamily": {
+          "value": "{fontFamily.inter}",
+          "type": "fontFamilies"
+        },
+        "fontWeight": {
+          "value": "{fontWeight.400}",
+          "type": "fontWeights"
+        },
+        "lineHeight": {
+          "value": "{lineHeight.sm}",
+          "type": "lineHeights"
+        },
+        "fontSize": {
+          "value": "{fontSize.1}",
+          "type": "fontSizes"
+        },
+        "letterSpacing": {
+          "value": "{letterSpacing.sm}",
+          "type": "letterSpacing"
+        },
+        "paragraphSpacing": {
+          "value": "{paragraphSpacing.0}",
+          "type": "paragraphSpacing"
+        },
+        "paragraphIndent": {
+          "value": "{paragraphIndent.0}",
+          "type": "paragraphIndent"
+        },
+        "textCase": {
+          "value": "{textCase.none}",
+          "type": "textCase"
+        },
+        "textDecoration": {
+          "value": "{textDecoration.none}",
+          "type": "textDecoration"
+        }
       }
     },
     "textCase": {
