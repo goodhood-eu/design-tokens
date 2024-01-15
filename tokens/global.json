@@ -738,6 +738,12 @@
           "value": "{textDecoration.none}",
           "type": "textDecoration"
         }
+      },
+      "Regular": {
+        "fontWeight": {
+          "value": "{fontWeight.400}",
+          "type": "fontWeights"
+        }
       }
     },
     "textCase": {
