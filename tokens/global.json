@@ -622,6 +622,12 @@
           "value": "{textDecoration.none}",
           "type": "textDecoration"
         }
+      },
+      "Text Link": {
+        "textDecoration": {
+          "value": "{textDecoration.underline}",
+          "type": "textDecoration"
+        }
       }
     },
     "detail": {
@@ -743,6 +749,12 @@
         "fontWeight": {
           "value": "{fontWeight.400}",
           "type": "fontWeights"
+        }
+      },
+      "Text Link": {
+        "textDecoration": {
+          "value": "{textDecoration.underline}",
+          "type": "textDecoration"
         }
       }
     },
