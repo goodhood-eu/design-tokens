@@ -997,6 +997,10 @@
             "value": "#738C00",
             "type": "color",
             "description": "Knallgreen/Dark Accent"
+          },
+          "1500": {
+            "value": "#5e6e14",
+            "type": "color"
           }
         },
         "Knallpink": {
@@ -1019,6 +1023,10 @@
             "value": "#CC339F",
             "type": "color",
             "description": "Knallpink/Dark Accent"
+          },
+          "1500": {
+            "value": "#b22b8a",
+            "type": "color"
           }
         },
         "Lavender": {
@@ -1063,6 +1071,10 @@
             "value": "#01819C",
             "type": "color",
             "description": "Teal/Dark Accent"
+          },
+          "1500": {
+            "value": "#166473",
+            "type": "color"
           }
         },
         "Orange": {
@@ -1099,6 +1111,14 @@
             "value": "#ffe625",
             "type": "color",
             "description": "Yellow"
+          },
+          "1300": {
+            "value": "#ffdd64",
+            "type": "color"
+          },
+          "2000": {
+            "value": "#705800",
+            "type": "color"
           }
         }
       },
