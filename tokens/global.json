@@ -92,10 +92,6 @@
       "800": {
         "value": "Extra Bold",
         "type": "fontWeights"
-      },
-      "400italic": {
-        "value": "Italic",
-        "type": "fontWeights"
       }
     },
     "fontSize": {
@@ -607,7 +603,7 @@
           "type": "textCase"
         },
         "textDecoration": {
-          "value": "{textDecoration.none}",
+          "value": "{textDecoration.italic}",
           "type": "textDecoration"
         }
       },
@@ -859,6 +855,10 @@
       },
       "underline": {
         "value": "underline",
+        "type": "textDecoration"
+      },
+      "italic": {
+        "value": "italic",
         "type": "textDecoration"
       }
     },
@@ -1395,37 +1395,11 @@
         "type": "lineHeights"
       }
     },
-    "fontWeights": {
-      "inter-0": {
-        "value": "Medium",
-        "type": "fontWeights"
-      },
-      "inter-1": {
-        "value": "Semi Bold",
-        "type": "fontWeights"
-      },
-      "inter-2": {
-        "value": "Bold",
-        "type": "fontWeights"
-      },
-      "inter-3": {
-        "value": "Extra Bold",
-        "type": "fontWeights"
-      },
-      "inter-4": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "inter-5": {
-        "value": "Italic",
-        "type": "fontWeights"
-      }
-    },
     "Headings": {
       "H1": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-0}",
+          "fontWeight": "{fontWeight.500}",
           "lineHeight": "{lineHeights.0}",
           "fontSize": "{fontSize.7}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1439,7 +1413,7 @@
       "H2": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-1}",
+          "fontWeight": "{fontWeight.600}",
           "lineHeight": "{lineHeights.1}",
           "fontSize": "{fontSize.6}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1453,7 +1427,7 @@
       "H3": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-1}",
+          "fontWeight": "{fontWeight.600}",
           "lineHeight": "{lineHeights.2}",
           "fontSize": "{fontSize.5}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1467,7 +1441,7 @@
       "H4": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-2}",
+          "fontWeight": "{fontWeight.700}",
           "lineHeight": "{lineHeights.2}",
           "fontSize": "{fontSize.4}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1481,7 +1455,7 @@
       "H5": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-1}",
+          "fontWeight": "{fontWeight.600}",
           "lineHeight": "{lineHeights.3}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1495,7 +1469,7 @@
       "H6": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-2}",
+          "fontWeight": "{fontWeight.700}",
           "lineHeight": "{lineHeights.2}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.md}",
@@ -1509,7 +1483,7 @@
       "H7": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-3}",
+          "fontWeight": "{fontWeight.800}",
           "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.md}",
@@ -1523,7 +1497,7 @@
       "H8": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-3}",
+          "fontWeight": "{fontWeight.800}",
           "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.0}",
           "letterSpacing": "{letterSpacing.lg}",
@@ -1539,7 +1513,7 @@
       "Large": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-0}",
+          "fontWeight": "{fontWeight.500}",
           "lineHeight": "{lineHeights.2}",
           "fontSize": "{fontSize.3}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1553,7 +1527,7 @@
       "Regular": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-4}",
+          "fontWeight": "{fontWeight.400}",
           "lineHeight": "{lineHeights.3}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1567,7 +1541,7 @@
       "Semibold": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-1}",
+          "fontWeight": "{fontWeight.600}",
           "lineHeight": "{lineHeights.3}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1581,7 +1555,7 @@
       "Italic": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-5}",
+          "fontWeight": "{fontWeight.400}",
           "lineHeight": "{lineHeights.3}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1595,7 +1569,7 @@
       "Text Link": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-0}",
+          "fontWeight": "{fontWeight.500}",
           "lineHeight": "{lineHeights.3}",
           "fontSize": "{fontSize.2}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1611,7 +1585,7 @@
       "Regular": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-4}",
+          "fontWeight": "{fontWeight.400}",
           "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1625,7 +1599,7 @@
       "Medium": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-0}",
+          "fontWeight": "{fontWeight.500}",
           "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1639,7 +1613,7 @@
       "Bold": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-2}",
+          "fontWeight": "{fontWeight.700}",
           "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1653,7 +1627,7 @@
       "Upper Case": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-3}",
+          "fontWeight": "{fontWeight.800}",
           "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.0}",
           "letterSpacing": "{letterSpacing.sm}",
@@ -1667,7 +1641,7 @@
       "Text Link": {
         "value": {
           "fontFamily": "{fontFamilies.inter}",
-          "fontWeight": "{fontWeights.inter-1}",
+          "fontWeight": "{fontWeight.600}",
           "lineHeight": "{lineHeights.4}",
           "fontSize": "{fontSize.1}",
           "letterSpacing": "{letterSpacing.sm}",
