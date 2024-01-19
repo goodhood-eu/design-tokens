@@ -575,7 +575,7 @@
           "type": "fontFamilies"
         },
         "fontWeight": {
-          "value": "{fontWeight.400italic}",
+          "value": "{fontWeight.400}",
           "type": "fontWeights"
         },
         "lineHeight": {
@@ -603,7 +603,7 @@
           "type": "textCase"
         },
         "textDecoration": {
-          "value": "{textDecoration.italic}",
+          "value": "{textDecoration.none}",
           "type": "textDecoration"
         }
       },
@@ -855,10 +855,6 @@
       },
       "underline": {
         "value": "underline",
-        "type": "textDecoration"
-      },
-      "italic": {
-        "value": "italic",
         "type": "textDecoration"
       }
     },
