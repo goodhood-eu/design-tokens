@@ -5,7 +5,7 @@ const addMissingUnits = {
     type: 'value',
     transitive: true,
     matcher: /** @param {DesignToken} token */ token =>
-        ['sizing', 'spacing', 'borderRadius', 'borderWidth', 'fontSizes', 'dimension', 'lineHeights'].includes(
+        ['sizing', 'spacing', 'borderRadius', 'borderWidth', 'fontSizes', 'dimension', 'lineHeights', 'letterSpacing'].includes(
             token.type,
         ),
     transformer: /** @param {DesignToken} token */ token => transformDimension(token.value),
