@@ -920,6 +920,10 @@
         "type": "borderRadius"
       },
       "xl": {
+        "value": "24",
+        "type": "borderRadius"
+      },
+      "xxl": {
         "value": "100",
         "type": "borderRadius"
       }
