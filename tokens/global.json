@@ -1367,6 +1367,10 @@
           "inversePrimary": {
             "value": "{color.primitive.Knallgreen.800}",
             "type": "color"
+          },
+          "inverseHighlight": {
+            "value": "{color.primitive.Knallpink.800}",
+            "type": "color"
           }
         }
       }
