@@ -900,6 +900,10 @@
       "xxxxl": {
         "value": "48",
         "type": "spacing"
+      },
+      "xxxxxl": {
+        "value": "56",
+        "type": "spacing"
       }
     },
     "borderRadius": {
