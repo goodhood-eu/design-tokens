@@ -1301,7 +1301,7 @@
             "type": "color"
           },
           "outlineVariant3": {
-            "value": "{color.primitive.Deep Purple.50}",
+            "value": "{color.primitive.Deep Purple.100}",
             "type": "color"
           },
           "outlineInverse": {
